@@ -83,6 +83,6 @@ function placeOrder(cardNumber) {
   }
 
   console.log(`Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`);
-
+// use $${function()} to call a function in the printed script and print the result
   cart.splice(0);
 }
